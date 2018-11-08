@@ -1,0 +1,51 @@
+
+<SCRIPT language=javascript>
+
+function g(formname)	{
+
+var url = "http://www.baidu.com/baidu";
+
+if (formname.s[1].checked) {
+
+	formname.ct.value = "2097152";
+
+}
+
+else {
+
+	formname.ct.value = "0";
+
+}
+
+formname.action = url;
+
+return true;
+
+}
+
+</SCRIPT>
+
+<form name="f1" onSubmit="return g(this)">
+
+<table bgcolor="#FFFFFF" style="font-size:9pt;">
+
+<tr height="60"><td valign="top"><img src="logo-137px.gif" border="0" alt="baidu">
+</td>
+
+<td>
+<input name=word size="30" maxlength="100">
+
+<input type="submit" value="ËÑ"><br>
+
+<input name=tn type=hidden value="bds">
+
+<input name=cl type=hidden value="3">
+
+<input name=ct type=hidden>
+
+<input name=si type=hidden value="https://github.com/binhaibranch/binhaibranch.github.io">
+
+<input name=s type=radio> »¥ÁªÍø
+<input name=s type=radio checked> https://github.com/binhaibranch/binhaibranch.github.io
+</td></tr></table>
+</form>
