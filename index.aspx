@@ -42,12 +42,23 @@ a:active {
 </head>
 
 <body>
-
 <table width="1343" height="565" border="0">
   <tbody><tr>
     <td colspan="3" align="center"><p align="center" class="STYLE8">山东胜利建设监理股份有限公司</p>
     <p align="center" class="STYLE8">滨海分公司数据管理平台</p>
-    <p align="center" class="STYLE8">&nbsp;</p></td>
+	<script type="text/javascript">
+　　var domainroot="https://binhaibranch.github.io"//个人站点域名，替换成你的网站的网址即可
+　　function Gsitesearch(curobj){
+　　curobj.q.value="site:"+domainroot+" "+curobj.qfront.value
+　　}
+　　</script>
+　　<form action="http://www.Google.com/search" method="get" onSubmit="Gsitesearch(this)">
+　　<p>站内搜索:<br />
+　　<input name="q" type="hidden" />
+　　<input name="qfront" type="text" style="width: 180px" /> <input type="submit" value="开始搜索">
+　　</p>
+　　</form>
+    </td>
   </tr>
     <tr>
       <td height="76" align="center" bordercolor="#F0F0F0" bgcolor="#99FF99"><div align="center"><span class="STYLE9"><a href="http://www.loveguifan.cn/baiduguifan.php">规范查询</a></span></div></td>

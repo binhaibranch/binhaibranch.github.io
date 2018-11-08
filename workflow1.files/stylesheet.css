@@ -21,24 +21,24 @@ ruby
 	font-weight:400;
 	font-style:normal;
 	text-decoration:none;
-	font-family:ËÎÌå;
+	font-family:å®‹ä½“;
 	mso-generic-font-family:auto;
 	mso-font-charset:134;
 	border:none;
 	mso-protection:locked visible;
-	mso-style-name:³£¹æ;
+	mso-style-name:å¸¸è§„;
 	mso-style-id:0;}
-.style76
+.style62
 	{color:#0563C1;
 	font-size:11.0pt;
 	font-weight:400;
 	font-style:normal;
 	text-decoration:underline;
 	text-underline-style:single;
-	font-family:ËÎÌå;
+	font-family:å®‹ä½“;
 	mso-generic-font-family:auto;
 	mso-font-charset:134;
-	mso-style-name:³¬Á´½Ó;
+	mso-style-name:è¶…é“¾æŽ¥;
 	mso-style-id:8;}
 a:link
 	{color:#0563C1;
@@ -47,7 +47,7 @@ a:link
 	font-style:normal;
 	text-decoration:underline;
 	text-underline-style:single;
-	font-family:ËÎÌå;
+	font-family:å®‹ä½“;
 	mso-generic-font-family:auto;
 	mso-font-charset:134;}
 a:visited
@@ -57,25 +57,7 @@ a:visited
 	font-style:normal;
 	text-decoration:underline;
 	text-underline-style:single;
-	font-family:ËÎÌå;
-	mso-generic-font-family:auto;
-	mso-font-charset:134;}
-.font7
-	{color:black;
-	font-size:14.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:none;
-	font-family:ËÎÌå;
-	mso-generic-font-family:auto;
-	mso-font-charset:134;}
-.font10
-	{color:black;
-	font-size:14.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:none;
-	font-family:ËÎÌå;
+	font-family:å®‹ä½“;
 	mso-generic-font-family:auto;
 	mso-font-charset:134;}
 .font12
@@ -84,7 +66,7 @@ a:visited
 	font-weight:400;
 	font-style:normal;
 	text-decoration:none;
-	font-family:ËÎÌå;
+	font-family:å®‹ä½“;
 	mso-generic-font-family:auto;
 	mso-font-charset:134;}
 td
@@ -98,7 +80,7 @@ td
 	font-weight:400;
 	font-style:normal;
 	text-decoration:none;
-	font-family:ËÎÌå;
+	font-family:å®‹ä½“;
 	mso-generic-font-family:auto;
 	mso-font-charset:134;
 	mso-number-format:General;
@@ -112,24 +94,40 @@ td
 	mso-rotate:0;}
 .xl65
 	{mso-style-parent:style0;
-	font-size:14.0pt;
-	text-align:center;}
+	color:black;}
 .xl66
 	{mso-style-parent:style0;
+	color:black;
 	font-size:18.0pt;
 	text-align:center;}
 .xl67
 	{mso-style-parent:style0;
-	font-size:14.0pt;}
+	color:black;
+	font-size:14.0pt;
+	text-align:center;
+	border:.5pt solid windowtext;}
 .xl68
-	{mso-style-parent:style76;
+	{mso-style-parent:style0;
+	color:black;
+	font-size:14.0pt;
+	border:.5pt solid windowtext;}
+.xl69
+	{mso-style-parent:style62;
 	color:#0563C1;
 	font-size:14.0pt;
 	text-decoration:underline;
 	text-underline-style:single;
-	text-align:center;}
-.xl69
+	text-align:center;
+	border:.5pt solid windowtext;}
+.xl70
 	{mso-style-parent:style0;
+	color:black;
 	font-size:14.0pt;
 	text-align:center;
+	border:.5pt solid windowtext;
 	white-space:normal;}
+.xl71
+	{mso-style-parent:style0;
+	color:red;
+	font-size:14.0pt;
+	border:.5pt solid windowtext;}
