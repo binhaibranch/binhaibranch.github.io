@@ -1,80 +1,296 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!-- saved from url=(0077)https://dl2.pushbulletusercontent.com/1ePYuKzpFp0gJFxCyE5arlplAab3t48b/1.html -->
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-<title>滨海分公司数据查询</title>
-<style type="text/css">
-<!--
-.STYLE4 {
-	font-size: x-large;
-	font-family: "黑体";
-}
-body {
-	background-color: #66CCFF;
-	background-image: url();
-	background-repeat: no-repeat;
-}
-.STYLE8 {
-	font-size: xx-large;
-	color: #FF0000;
-	font-family: "黑体";
-	font-weight: bold;
-}
-.STYLE9 {
-	font-family: "黑体";
-	font-size: xx-large;
-}
-.STYLE13 {font-family: "黑体"; font-size: xx-large; color: #000099; }
-a:link {
-	text-decoration: none;
-}
-a:visited {
-	text-decoration: none;
-}
-a:hover {
-	text-decoration: none;
-}
-a:active {
-	text-decoration: none;
-}
--->
-</style>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="X-UA-Compatible" content="IE=edge"/>
+	<title>胜利监理滨海分公司</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	
+	<style type="text/css">
+		body,td,th {
+			color: #009;
+			font-size: 14px;
+			font-weight: bold;
+		}
+		
+		.sub_li{
+			text-align: center;
+		}
+	</style>
 </head>
 
+
 <body>
+	<!--header-->
+	<div class="top_wrap">
+	<!--top index-->
+		<div class="top">
+			<span class="welcome">欢迎您访问胜利监理滨海分公司技术网站！</span>
+			<div class="corner">
+				<a onclick=SetHome(this,window.location) title="设为首页" href="javascript:void(0);">设为首页</a>
+				<span>|</span>
+				<a onclick=addFavorite(window.location,document.title) title="添加收藏" href="javascript:void(0);">加入收藏</a>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
 
-<table width="1343" height="565" border="0">
-  <tbody><tr>
-    <td height="20" colspan="3" align="center"><p align="center" class="STYLE8">山东胜利建设监理股份有限公司</p>
-    <p align="center" class="STYLE8">滨海分公司数据管理平台
-<div id="so360"></div>
+	<!--logo and nav-->
+	<div class="header_wrap">
+		<div class="header">
+			<img src="images/logo.jpg" />
+			<div class="nav_list">
+				<ul id="nav" class="nav clearfix">
+					<li class="nLi" style="display: none;"></li>
+					<li class="nLi">
+						<h3 class="nli_h3"><a href="teachers.html">师资与科研</a></h3>
+						<ul class="sub">
+							<li class="sub_li"><a href="teachers.html">师资力量</a></li>
+							<li class="sub_li"><a href="technology.html">科研成果</a></li>
+						</ul>
+					</li>
+					
+					<li class="nLi">
+						<h3 class="nli_h3"><a href="study.html">文秘学子</a></h3>
+						<ul class="sub">
+							<li class="sub_li"><a href="study.html">学习成果</a></li>
+							<li class="sub_li"><a href="study.html">活动掠影</a></li>
+							<li class="sub_li"><a href="student.html">优秀毕业生</a></li>
+						</ul>
+					</li>
+					
+					<li class="nLi">
+						<h3 class="nli_h3"><a href="serve.html">社会服务</a></h3>
+						<ul class="sub">
+							<li class="sub_li"><a href="serve.html">对外培训</a></li>
+							<li class="sub_li"><a href="serve.html">志愿服务</a></li>
+							<li class="sub_li"><a href="serve.html">秘书职业资格证</a></li>
+						</ul>
+					</li>
+					
+					<li class="nLi">
+						<h3 class="nli_h3"><a href="resource.html">资源共享</a></h3>
+						<ul class="sub">
+							<li class="sub_li"><a href="resource.html">技能类</a></li>
+							<li class="sub_li"><a href="resource.html">法文类</a></li>
+							<li class="sub_li"><a href="resource.html">其他</a></li>
+							<li class="sub_li"><a href="resource.html">探秘天下</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+	<!--banner-->
+	<!--content-->
+	<div class="content">
+		<div class="left_tab">
+			<div class="hd">
+				<div id="today_container" style="width: 100%;height: 100%;">
+					<div>
+						<img style="width: 80px;height: 54px;margin-bottom: 2px;margin-top: 2px;" src="./images/weather_icon/1.png" alt="今日天气"/>
+
+						<div style="float:right;" class="more_info">
+							<span class="info">城市</span>|<span class="info">201X-XX-XX</span>|<span class="info">星期X</span>|<span class="info">---</span>
+							&nbsp;&nbsp;
+							今日温度：<span class="info">-----</span>风力：<span class="info">-----</span>风向：<span class="info">-----</span>PM2.5：<span class="info">--</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bd">
+				<div class="box">
+					<ul class="clearfix">
+						<li>
+							<div id="gfcx" style="width: 100%;height: 100%;text-align: center;">
+								<img src="images/n1.jpg" />
+								<h4>规范查询</h4>
+							</div>
+							
+							<div id="gfcx_showDiv" style="background-color: rgba(135,206,235,0.8);width: 100%;height: 100%;text-align: center;position: relative;top: -256px;z-index: 999;display: none;">
+								<p style="height:50%;line-height: 128px;text-align: center;">
+									<a href="http://www.loveguifan.cn/baiduguifan.php">国标查询</a>
+								</p>
+								<p style="height:50%;line-height: 128px;text-align: center;">
+									<a href="https://binhaifgs1.github.io/">SY标准查询</a>
+								</p>
+							</div>
+						</li>
+						
+						<li>
+							<div style="width: 100%;height: 100%;text-align: center;">
+								  <a href="https://teams.microsoft.com/_?tenantId=635a5b52-ced3-419d-8b5a-0c42dc3f5d06#/xlsx/viewer/teams/https:~2F~2Fpaul045.sharepoint.com~2Fsites~2Fpaul~2FShared%20Documents~2FGeneral~2F%E5%88%86%E5%85%AC%E5%8F%B8%E5%B7%A5%E7%A8%8B%E8%B4%A8%E9%87%8F%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98%E7%AE%A1%E7%90%86%E6%95%B0%E6%8D%AE%E6%9F%A5%E8%AF%A2%E5%BA%93%20-%20Editable%20(2).xlsx?threadId=19:bfcac8dab3664dfc8cbaee5ebfa238cb@thread.skype&baseUrl=https:~2F~2Fpaul045.sharepoint.com~2Fsites~2Fpaul&fileId=E1E14FD4-25AA-4940-94E1-EF185D5F7877&ctx=files&viewerAction=view"><img src="images/n2.jpg" />
+								  </a>
+								  <h4><a href="https://teams.microsoft.com/_?tenantId=635a5b52-ced3-419d-8b5a-0c42dc3f5d06#/xlsx/viewer/teams/https:~2F~2Fpaul045.sharepoint.com~2Fsites~2Fpaul~2FShared%20Documents~2FGeneral~2F%E5%88%86%E5%85%AC%E5%8F%B8%E5%B7%A5%E7%A8%8B%E8%B4%A8%E9%87%8F%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98%E7%AE%A1%E7%90%86%E6%95%B0%E6%8D%AE%E6%9F%A5%E8%AF%A2%E5%BA%93%20-%20Editable%20(2).xlsx?threadId=19:bfcac8dab3664dfc8cbaee5ebfa238cb@thread.skype&baseUrl=https:~2F~2Fpaul045.sharepoint.com~2Fsites~2Fpaul&fileId=E1E14FD4-25AA-4940-94E1-EF185D5F7877&ctx=files&viewerAction=view">项目管理数据录入</a></h4>
+							</div>
+						</li>
+						
+						<li>
+							<div id="gzzn" style="width: 100%;height: 100%;text-align: center;">
+								<img src="images/n3.jpg" />
+								<h4>QHSE管理工作指南</h4>
+							</div>
+							
+							<div id="gzzn_showDiv" style="background-color: rgba(135,206,235,0.8);width: 100%;height: 100%;text-align: center;position: relative;top: -256px;z-index: 999;display: none;">
+								<p style="height:50%;line-height: 128px;text-align: center;">
+									<a href="https://binhaifgs1.github.io/gzlczn/">HSE管理工作指南</a>
+								</p>
+								<p style="height:50%;line-height: 128px;text-align: center;">
+									<a href="https://pan.baidu.com">质量管理工作指南</a>
+								</p>
+							</div>
+						</li>
+						
+						<li>
+							<div style="width: 100%;height: 100%;text-align: center;">
+								<a href="nDetail.html">
+									<img src="images/n4.jpg" /><h4>人力/物资数据库</h4>
+								</a>
+							</div>
+						</li>
+						
+						<li>
+							<div style="width: 100%;height: 100%;text-align: center;">
+								<a href="https://pan.baidu.com/disk/home?errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0&traceid=#/all?vmode=list&path=%2F4%20%E9%87%8D%E7%82%B9%E5%B7%A5%E7%A8%8B%E7%9B%91%E7%90%86%E7%94%B5%E5%AD%90%E6%A1%A3%E6%A1%88">
+									<img src="images/n5.jpg" />
+									<h4>重点工程监理电子档案</h4>
+							  </a>
+						  </div>
+						</li>
+						
+						<li>
+							<div style="width: 100%;height: 100%;text-align: center;">
+								<a href="https://pan.baidu.com/disk/home?errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0&traceid=#/all?vmode=list&path=%2F6%20%E5%9F%B9%E8%AE%AD%E8%B5%84%E6%96%99%E5%AD%A6%E4%B9%A0%E5%B9%B3%E5%8F%B0">
+									<img src="images/n6.jpg" />
+									<h4>学习平台</h4>
+							  </a>
+						  </div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- <div class="bd">
+				<div class="box">
+					<a href="news.html" class="more">MORE+</a>
+					<ul class="clearfix">
+						<li>
+							<div align="center">
+								<a href="nDetail.html"><img src="images/n1.jpg" /></a>
+							</div>
+							<h4 align="center"><a href="nDetail.html">规范查询</a></h4>
+						</li>
+						
+						<li>
+							<a href="nDetail.html"><img src="images/n2.jpg" />项目管理数据录入</a>
+						</li>
+						
+						<li>
+							<a href="nDetail.html"><img src="images/n3.jpg" /><h4>QHSE管理工作指南</h4></a>
+						</li>
+						
+						<li>
+							<a href="nDetail.html"><img src="images/n4.jpg" /><h4>人力/物资数据库</h4></a>
+						</li>
+						
+						<li>
+							<a href="nDetail.html"><img src="images/n5.jpg" /><h4>重点工程监理电子档案</h4></a>
+						</li>
+						
+						<li>
+							<a href="nDetail.html"><img src="images/n6.jpg" /><h4>学习平台</h4></a>
+						</li>
+					</ul>
+				</div>
+			</div> -->
+		</div>
+		
+		<div class="right_box">
+			<!--notice-->
+			<div class="notice">
+				<div class="n_title">
+					<strong>常用网址</strong>
+				</div>
+				<div class="bd">
+					<ul class="infoList">
+						<li><a href="http://sljl.cn">胜利监理门户</a></li>
+						<li><a href="http://sljl.jlt.com">监理通</a></li>
+						<li><a href="http://www.bioe.com.cn">北京石大东方</a></li>
+						<li><a href="http://www.csres.com">工标网</a></li>
+						<li><a href="http://www.bzxzk.net">标准下载库</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<!--code-->
+			<div class="code">
+				<img src="images/er.jpg" />
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
 	
-
-</SCRIPT></p>
-    </td>
-  </tr>
-    <tr>
-      <td height="76" align="center" bordercolor="#F0F0F0" bgcolor="#99FF99"><div align="center"><span class="STYLE9"><a href="http://www.loveguifan.cn/baiduguifan.php">国标规范搜索</a></span></div></td>
-      <td bgcolor="#99FF99"><div align="center"><a href="https://teams.microsoft.com/_?tenantId=635a5b52-ced3-419d-8b5a-0c42dc3f5d06#/xlsx/viewer/personal/https:~2F~2Fpaul045-my.sharepoint.com~2Fpersonal~2Fadmin_paul045_onmicrosoft_com~2FDocuments~2F分公司工程质量安全问题管理数据查询库 .xlsx?baseUrl=https:~2F~2Fpaul045-my.sharepoint.com~2Fpersonal~2Fadmin_paul045_onmicrosoft_com&amp;fileId=D5C24C44-2625-48C0-9C65-D37D503A1E51&amp;viewerAction=edit" class="STYLE9">项目管理数据录入</a></div></td>
-      <td bgcolor="#99FF99"><div align="center"><span class="STYLE13"><a href="https://binhaifgs1.github.io/gzlczn/">工作流程指南</a></span></div></td>
-    </tr>
-    <tr>
-    <td width="436" height="72" align="center" bgcolor="#99FF99"><span class="STYLE4"><a href="https://pan.baidu.com/disk/home?errno=0&amp;errmsg=Auth%20Login%20Sucess&amp;&amp;bduss=&amp;ssnerror=0&amp;traceid=#/all?vmode=list&amp;path=%2F4%E9%87%8D%E7%82%B9%E5%B7%A5%E7%A8%8B%E7%9B%91%E7%90%86%E7%94%B5%E5%AD%90%E6%A1%A3%E6%A1%88" class="STYLE9">重点工程监理电子档案</a></span></td>
-    <td width="447" bgcolor="#99FF99"><div align="center"><a href="https://teams.microsoft.com/_?tenantId=635a5b52-ced3-419d-8b5a-0c42dc3f5d06#/xlsx/viewer/personal/https:~2F~2Fpaul045-my.sharepoint.com~2Fpersonal~2Fadmin_paul045_onmicrosoft_com~2FDocuments~2F分公司工程质量安全问题管理数据查询库 .xlsx?baseUrl=https:~2F~2Fpaul045-my.sharepoint.com~2Fpersonal~2Fadmin_paul045_onmicrosoft_com&amp;fileId=D5C24C44-2625-48C0-9C65-D37D503A1E51&amp;viewerAction=edit" class="STYLE9">人力/物资查询库</a></div></td>
-    <td width="446" bgcolor="#99FF99"><div align="center"><a href="https://pan.baidu.com/disk/home?errno=0&amp;errmsg=Auth Login Sucess&amp;&amp;bduss=&amp;ssnerror=0&amp;traceid=#/all?vmode=list&amp;path=/8、培训资料学习平台" class="STYLE9">培训资料学习平台</a></div></td>
-  </tr>
-  <tr>
-    <td height="68" bgcolor="#99FF99"><div align="center" class="STYLE9"><a href="workflow1.htm"></a><a href="https://binhaifgs1.github.io/" class="STYLE9">SY规范查询</a></div></td>
-    <td bgcolor="#99FF99">&nbsp;</td>
-    <td bgcolor="#99FF99"><div align="center"><a href="https://binhaifgs1.github.io/" class="STYLE9"></a></div></td>
-  </tr>
-  <tr>
-    <td colspan="3" align="center"><p>
-      <input type="image" name="imageField" src="滨海技术.jpg" />
-    </p>
-      <p><span lang="EN-US" xml:lang="EN-US">Copyright </span>山东胜利建设监理股份有限公司滨海分公司</p>
-      <p><span lang="EN-US" xml:lang="EN-US">Tel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     0546-8878110 </span></p></td>
-  </tr>
-</tbody></table>
-
-</body></html>
+	<!--footer-->
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js" ></script>
+	<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js" ></script>
+	<script type="text/javascript" src="js/common.js" ></script>
+	<script type="text/javascript" src="js/index_weather.js"></script>
+	
+	<script type="text/javascript">
+		$(function(){
+			setwidthfornavList();
+			
+			var body = document.getElementsByTagName("body");
+			
+			$('#gfcx').hover(function(e) {
+				$("#gfcx_showDiv").slideDown("fast");
+            }, function(e) {
+            });
+			
+			$('#gfcx_showDiv').hover(function(e) {
+            }, function(e) {
+                $("#gfcx_showDiv").slideUp("fast");
+            });
+			
+			
+			$('#gzzn').hover(function(e) {
+				$("#gzzn_showDiv").slideDown("fast");
+            }, function(e) {
+            });
+			
+			$('#gzzn_showDiv').hover(function(e) {
+            }, function(e) {
+                $("#gzzn_showDiv").slideUp("fast");
+            });
+		});
+		
+		//设置nli宽度
+		function setwidthfornavList(){
+			var nlih3 = $(".nli_h3");
+			var sub = $(".sub");
+			
+			var nlih3width;
+			
+			var liinsub;
+			
+			for(var i=0;i<nlih3.length;i++){
+				nlih3width = nlih3[i].clientWidth;
+				$(sub[i]).css("width",nlih3width);
+				
+				liinsub = $(sub[i]).children().css("width",nlih3width);
+			}
+		}
+	</script>
+	
+	<div class="top_wrap">
+		<div align="center">
+		<!--top index-->
+		</div>
+		<div class="top">
+			<p align="center"><SPAN lang="EN-US">Copyright </SPAN>山东胜利建设监理股份有限公司滨海分公司  <SPAN lang="EN-US"> Tel：0546-8878110</SPAN></p>
+		</div>
+	</div>
+</body>
+</html>
